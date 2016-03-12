@@ -15,6 +15,7 @@ import android.widget.BaseAdapter;
 import android.widget.CheckedTextView;
 import android.widget.TextView;
 
+import com.example.taifa.book.R;
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.example.taifa.book.SwipeFlingAdapterView;
 
@@ -279,4 +280,4 @@ public class Main extends AppCompatActivity implements SwipeFlingAdapterView.onF
 
 
 
-}
+
