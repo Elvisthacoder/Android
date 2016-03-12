@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 /**
  * Created by taifa on 3/12/16.
  */
-public class BaseFlingAdapterView extends AdapterView {
+public  abstract class BaseFlingAdapterView extends AdapterView {
 
     private int heightMeasureSpec;
     private int widthMeasureSpec;
