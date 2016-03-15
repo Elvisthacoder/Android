@@ -1,9 +1,11 @@
 package com.example.taifa.charged;
 
+
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
 
 public class Splash extends AppCompatActivity {
     private final int SplashDisplayLength = 5000;
@@ -16,7 +18,7 @@ public class Splash extends AppCompatActivity {
             @Override
             public void run() {
                 // Intent that will start the Main Activity
-                Intent mainIntent = new Intent(Splash.this, charged.class);
+                Intent mainIntent = new Intent(Splash.this, Main.class);
                 Splash.this.startActivity(mainIntent);
                 Splash.this.finish();
             }
@@ -24,3 +26,6 @@ public class Splash extends AppCompatActivity {
     }
 
 }
+
+
+
