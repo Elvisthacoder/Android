@@ -23,36 +23,14 @@
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Username"
-        android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_weight="1"
-        android:background="#fff" />
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:id="@+id/button2"
-        android:layout_weight="1"
-        android:background="#fff"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
-
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
         android:text="Login"
         android:id="@+id/button3"
 
         android:background="#2ac61a"
         android:paddingTop="-10dip"
-        android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_marginTop="30dp" />
+        android:layout_marginBottom="99dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -60,12 +38,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Have an account?"
         android:id="@+id/textView2"
-        android:layout_marginBottom="35dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_marginLeft="34dp"
-        android:layout_marginStart="34dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -77,4 +51,36 @@
         android:layout_toRightOf="@+id/textView2"
         android:layout_toEndOf="@+id/textView2"
         android:textColor="#304ec7" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:text="Password"
+        android:background="#ffffff"
+        android:textAlignment="center"
+        android:layout_above="@+id/button3"
+        android:layout_marginBottom="48dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_above="@+id/editText3"
+        android:layout_marginBottom="32dp"
+        android:textAlignment="center"
+        android:background="#ffffff"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
 </RelativeLayout>
