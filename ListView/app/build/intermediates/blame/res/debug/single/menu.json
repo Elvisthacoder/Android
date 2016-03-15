@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/martin/ListView/app/build/intermediates/res/merged/debug/menu/activity_list_view_android_example.xml",
+        "source": "/home/martin/ListView/app/src/main/res/menu/activity_list_view_android_example.xml"
+    },
+    {
+        "merged": "/home/taifa/AndroidStudioProjects/ListView/app/build/intermediates/res/merged/debug/menu/activity_list_view_android_example.xml",
+        "source": "/home/taifa/AndroidStudioProjects/ListView/app/src/main/res/menu/activity_list_view_android_example.xml"
+    }
+]
